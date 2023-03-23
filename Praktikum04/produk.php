@@ -30,7 +30,7 @@ require_once 'sidebar.php';
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Judul</h3>
+                            <h3 class="card-title">Selamat Datang Pada Halaman Produk</h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -46,7 +46,7 @@ require_once 'sidebar.php';
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
-                            Footer
+                            Sekolah Tinggi Teknologi Terpadu Nurul Fikri
                         </div>
                         <!-- /.card-footer-->
                     </div>

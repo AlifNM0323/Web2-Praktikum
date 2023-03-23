@@ -15,7 +15,7 @@ require_once 'sidebar.php';
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Dashboard WEB</h1>
+                    <h1>SELAMAT DATANG!!</h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -62,7 +62,7 @@ require_once 'sidebar.php';
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
-                            Footer
+                            Sekolah Tinggi Terpadu Nurul Fikri
                         </div>
                         <!-- /.card-footer-->
                     </div>

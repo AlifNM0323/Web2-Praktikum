@@ -1,10 +1,13 @@
 <?php 
 require_once 'dbkoneksi.php';
 ?>
-            
+<div class="container"> 
+  <br>
+  <h3 align="center">Create Stok Barang</h3>  
+  <hr>
 <form method="POST" action="proses_produk.php">
   <div class="form-group row">
-    <label for="kode" class="col-4 col-form-label">Kode</label> 
+    <label for="kode" class="col-4 col-form-label"><b>Kode Barang</b></label> 
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -18,7 +21,7 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
   <div class="form-group row">
-    <label for="nama" class="col-4 col-form-label">Nama Produk</label> 
+    <label for="nama" class="col-4 col-form-label"><b>Nama Produk</b></label> 
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -32,7 +35,7 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
   <div class="form-group row">
-    <label for="harga_beli" class="col-4 col-form-label">Harga Beli</label> 
+    <label for="harga_beli" class="col-4 col-form-label"><b>Harga Beli</b></label> 
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -46,7 +49,7 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
   <div class="form-group row">
-    <label for="stok" class="col-4 col-form-label">Stok</label> 
+    <label for="stok" class="col-4 col-form-label"><b>Stock</b></label> 
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -60,7 +63,7 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
   <div class="form-group row">
-    <label for="min_stok" class="col-4 col-form-label">Minimum Stok</label> 
+    <label for="min_stok" class="col-4 col-form-label"><b>Minimum Stock</b></label> 
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -75,7 +78,7 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
   <div class="form-group row">
-    <label for="jenis" class="col-4 col-form-label">Jenis Produk</label> 
+    <label for="jenis" class="col-4 col-form-label"><b>Jenis Produk</b></label> 
     <div class="col-8">
         <?php 
             $sqljenis = "SELECT * FROM jenis_produk";
@@ -97,6 +100,7 @@ require_once 'dbkoneksi.php';
       </select>
     </div>
   </div> 
+  <hr>
   <div class="form-group row">
     <div class="offset-4 col-8">
       <input type="submit" name="proses" type="submit" 
@@ -104,3 +108,4 @@ require_once 'dbkoneksi.php';
     </div>
   </div>
 </form>
+</div>

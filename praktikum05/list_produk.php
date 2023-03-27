@@ -5,17 +5,17 @@ require_once 'dbkoneksi.php';
 $sql = "SELECT * FROM produk";
 $rs = $dbh->query($sql);
 ?>
-
+<div class="container">
 <a class="btn btn-success" href="form_produk.php" role="button">Create Produk</a>
-<table class="table" width="100%" border="1" cellspacing="2" cellpadding="2">
+<table class="table table-hover" width="100%" border="1" cellspacing="2" cellpadding="2">
     <thead>
         <tr>
-            <th>No</th>
-            <th>Kode</th>
-            <th>Nama</th>
-            <th>Harga Jual</th>
-            <th>Qty</th>
-            <th>Action</th>
+            <th scope="col">No</th>
+            <th scope="col">Kode</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Harga Jual</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Action</th>
         </tr>
     </thead>
     <tbody>
@@ -41,3 +41,4 @@ $rs = $dbh->query($sql);
         ?>
     </tbody>
 </table>
+</div>

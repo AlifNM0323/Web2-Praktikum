@@ -6,7 +6,9 @@ $sql = "SELECT * FROM produk";
 $rs = $dbh->query($sql);
 ?>
 <div class="container">
+
 <a class="btn btn-success" href="form_produk.php" role="button">Create Produk</a>
+<hr>
 <table class="table table-hover" width="100%" border="1" cellspacing="2" cellpadding="2">
     <thead>
         <tr>

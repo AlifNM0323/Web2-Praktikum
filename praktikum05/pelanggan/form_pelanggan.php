@@ -16,7 +16,7 @@ if (!empty($_GET['idedit'])) {
 ?>
 <div class="container">
     <br>
-    <h3 align="center">Create Stok Barang</h3>
+    <h3 align="center">Create Data Pelanggan</h3>
     <hr>
     <form method="POST" action="proses_pelanggan.php">
         <div class="form-group row">

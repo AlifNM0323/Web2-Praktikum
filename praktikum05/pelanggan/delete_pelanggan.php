@@ -11,7 +11,7 @@
     $st = $dbh->prepare($sql);
     //eksekusi
     $st->execute([$delete]);
-
+ 
 
     header('location:list_pelanggan.php');
 

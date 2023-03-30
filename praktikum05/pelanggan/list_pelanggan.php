@@ -5,6 +5,7 @@ require_once 'dbkoneksi.php';
 $sql = "SELECT * FROM pelanggan";
 $rs = $dbh->query($sql);
 ?>
+<br>
 <div class="container">
 
 <a class="btn btn-success" href="form_pelanggan.php" role="button">Create Pelanggan</a>
@@ -38,9 +39,9 @@ $rs = $dbh->query($sql);
                 <td><?= $row['email'] ?></td>
                 <td><?= $row['kartu_id'] ?></td>
                 <td>
-                    <a class="btn btn-primary" href="view_pelanggan.php?id=<?= $row['id'] ?>">View</a>
-                    <a class="btn btn-primary" href="form_pelanggan.php?idedit=<?= $row['id'] ?>">Edit</a>
-                    <a class="btn btn-primary" href="delete_pelanggan.php?iddel=<?= $row['id'] ?>" onclick="if(!confirm('Anda Yakin Hapus Data Produk <?= $row['nama'] ?>?')) {return false}">Delete</a>
+                    <a class="btn btn-secondary" href="view_pelanggan.php?id=<?= $row['id'] ?>">View</a>
+                    <a class="btn btn-info" href="form_pelanggan.php?idedit=<?= $row['id'] ?>">Edit</a>
+                    <a class="btn btn-danger" href="delete_pelanggan.php?iddel=<?= $row['id'] ?>" onclick="if(!confirm('Anda Yakin Hapus Data Produk <?= $row['nama'] ?>?')) {return false}">Delete</a>
                 </td>
             </tr>
         <?php

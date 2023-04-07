@@ -15,7 +15,9 @@
 <body>
 
     <div class="container">
-        <h2>Persegi</h2>
+        <hr>
+        <h2 align="center">Persegi</h2>
+        <hr>
         <form method="POST" action="form_.php">
             <div class="form-group row">
                 <label for="panjang" class="col-4 col-form-label">Panjang</label>
@@ -50,23 +52,22 @@
             </div>
         </form>
 
-        <?php 
-            if (isset($_POST['submit'])) {
-                require_once "class_.php";
+        <?php
+        if (isset($_POST['submit'])) {
+            require_once "class_.php";
 
-                $panjang = $_POST["panjang"];
-                $lebar = $_POST["lebar"];
+            $panjang = $_POST["panjang"];
+            $lebar = $_POST["lebar"];
 
-                $persegi = new PersegiPanjang($panjang, $lebar);
+            $persegi = new PersegiPanjang($panjang, $lebar);
 
-                echo "Panjang : " . $persegi->panjang . "<br>";
-                echo "Lebar : " . $persegi->lebar . "<br>";
-                echo "Luas : " . $persegi->hitungLuas() . "<br>";
-                echo "Keliling : " . $persegi->hitungKeliling() . "<br>";
-
-
-            }
+            echo "Panjang : " . $persegi->panjang . "<br>";
+            echo "Lebar : " . $persegi->lebar . "<br>";
+            echo "Luas : " . $persegi->hitungLuas() . "<br>";
+            echo "Keliling : " . $persegi->hitungKeliling() . "<br>";
+        }
         ?>
+      
 
     </div>
 

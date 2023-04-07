@@ -76,7 +76,7 @@
 
             //BUAT OBJEK
             $pasien = new bmiPasien($nama, $berat, $tinggi, $umur, $jk);
-
+ 
             //tampilin data
             echo "Nama : " . $pasien->nama . "<br>";
             echo "Berat Badan : " . $pasien->berat . "<br>";

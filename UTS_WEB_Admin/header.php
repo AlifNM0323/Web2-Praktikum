@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Praktikum 04</title>
+  <title>UTS WEB</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -31,7 +31,13 @@
         <a href="produk.php" class="nav-link">Produk</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="profil.php" class="nav-link">Profil</a>
+        <a href="pesanan.php" class="nav-link">Daftar Pesanan</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="kategori_produk.php" class="nav-link">Kategori Produk</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="WEB_Pesanan/index.php" class="nav-link">Halaman User</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="login.php" class="nav-link">Login</a>
@@ -63,4 +69,7 @@
 
     </ul>
   </nav>
+</div>
+</body>
+</html>
   <!-- /.navbar -->

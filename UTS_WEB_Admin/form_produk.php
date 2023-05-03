@@ -15,7 +15,7 @@ require_once 'sidebar.php';
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Dashboard Website</h1>
+                    <h1>Website E-Commerce</h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -30,7 +30,7 @@ require_once 'sidebar.php';
                     <!-- Default box -->
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Selamat Datang!!</h3>
+                            <h3 class="card-title">Create Data Baru Produk</h3>
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -101,7 +101,7 @@ require_once 'sidebar.php';
                                     <div class="form-group row">
                                         <label for="deskripsi" class="col-4 col-form-label">Deskripsi</label>
                                         <div class="col-8">
-                                            <textarea id="deskripsi" name="deskripsi" cols="40" rows="5" class="form-control"></textarea>
+                                            <textarea id="deskripsi" name="deskripsi" cols="40" rows="1" class="form-control"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -144,7 +144,7 @@ require_once 'sidebar.php';
                         </div>
                         <!-- /.card-body -->
                         <div class="card-footer">
-                            Sekolah Tinggi Teknologi Terpadu Nurul Fikri
+                        By. Pemograman WEB 2 Sekolah Tinggi Teknologi Terpadu Nurul Fikri
                         </div>
                         <!-- /.card-footer-->
                     </div>

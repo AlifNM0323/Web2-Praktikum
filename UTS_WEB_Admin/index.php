@@ -16,7 +16,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1>Dashboard Website</h1>
+          <h1>Dashboard Admin Website E-Commerce</h1>
         </div>
       </div>
     </div><!-- /.container-fluid -->
@@ -47,7 +47,7 @@
             </div>
             <!-- /.card-body -->
             <div class="card-footer">
-              Sekolah Tinggi Teknologi Terpadu Nurul Fikri
+             By. Pemograman WEB 2 Sekolah Tinggi Teknologi Terpadu Nurul Fikri
             </div>
             <!-- /.card-footer-->
           </div>

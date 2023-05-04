@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/pngtree-shopping-cart-icon-design-png-image_4362857.png" rel="icon">
+    <link href="assets/img/pngtree-shopping-cart-icon-design-png-image_4362857.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -72,7 +72,7 @@
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
                     </li> -->
-                    <li><a class="nav-link scrollto" href="#contact">Form Pemesanan</a></li>
+                    <li><a class="nav-link scrollto" href="form_pesanan.php">Form Pemesanan</a></li>
                     <li><a class="getstarted scrollto" href="#about">Log In</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

@@ -1,10 +1,10 @@
 <?php
 require_once 'header.php';
 ?>
-
+<br><br><br><br><br>
 <div class="container">
   <div class="row">
-    <div class="col-lg-6 d-flex flex-column justify-content-center">
+    <div class="col-lg-8 d-flex flex-column justify-content-center">
       <h1 data-aos="fade-up">"Kamu tahu apa yang menjadi kebanggaan kami? Yaitu kepuasan Anda!"</h1>
       <h2 data-aos="fade-up" data-aos-delay="400">PT. Elektro Kencana Abadi</h2>
       <div data-aos="fade-up" data-aos-delay="600">
@@ -16,8 +16,8 @@ require_once 'header.php';
         </div>
       </div>
     </div>
-    <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-      <img src="assets/img/pngtree-shopping-cart-icon-design-png-image_4362857.png" class="img-fluid" alt="">
+    <div class="col-lg-4 hero-img" data-aos="zoom-out" data-aos-delay="200">
+      <img src="assets/img/pngtree-shopping-cart-icon-design-png-image_4362857.png" class="img-fluid" alt="" width="70%" height="70%">
     </div>
   </div>
 </div>

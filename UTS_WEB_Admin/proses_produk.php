@@ -34,7 +34,7 @@ if ($_proses == "submit") {
     stok=?,min_stok=?,deskripsi=?, kategori_produk_id=? WHERE id=?";
 }
 
-var_dump($_proses);
+// var_dump($_proses);
 if (isset($sql)) {
    $st = $dbh->prepare($sql);
    $st->execute($ar_data);

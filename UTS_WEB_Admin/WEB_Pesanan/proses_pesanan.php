@@ -34,7 +34,7 @@ if ($_proses == "submit") {
     email=?,jumlah_pesanan=?,deskripsi=?, produk_id=? WHERE id=?";
 }
 
-var_dump($_proses);
+// var_dump($_proses);
 if (isset($sql)) {
    $st = $dbh->prepare($sql);
    $st->execute($ar_data);

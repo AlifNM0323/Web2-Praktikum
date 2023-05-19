@@ -40,5 +40,5 @@ if (isset($sql)) {
    $st->execute($ar_data);
 }
 
-header('location:sukses.php');
+header('location:s ukses.php');
 ?>

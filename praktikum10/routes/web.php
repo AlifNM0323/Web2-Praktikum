@@ -1,5 +1,8 @@
 <?php
 
+
+
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProdukController;
 use Illuminate\Support\Facades\Route;
@@ -20,11 +23,15 @@ Route::get('/', function () {
 });
 
 
-// Route::get('/dashboard', function () {
-//     return view('admin.dashboard');
+// Route::get('/dashboard/ad', function () {
+//     return view('front.oke');
 // });
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/produk', [ProdukController::class, 'index']);
 
+
+
+Route::get('/home', [FrontendController::class, 'index1']);
+Route::get('/about', [FrontendController::class, 'index2']);
 

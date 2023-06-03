@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\produk;
 use Illuminate\Http\Request;
 
 class ProdukController extends Controller
@@ -13,7 +14,8 @@ class ProdukController extends Controller
      */
     public function index()
     {
-        return view ('admin.produk.produk');
+        $produk = produk::getAllProduk();
+        return view('admin.produk.produk', compact('produk'));
     }
 
     /**

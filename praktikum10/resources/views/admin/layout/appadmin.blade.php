@@ -7,4 +7,5 @@
         </div>
     </main>
 </div>
+</div>
 @include('admin.layout.bottom')

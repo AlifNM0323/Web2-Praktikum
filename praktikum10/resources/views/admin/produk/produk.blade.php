@@ -1,5 +1,10 @@
 @extends('admin.layout.appadmin')
 @section('content')
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
     <h1 class="mt-4">Tables</h1>
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
@@ -12,6 +17,9 @@
     </div>
     <div class="card mb-4">
         <div class="card-header">
+            {{-- bikin tombol button --}}
+
+            <a href="{{ url('produk/create') }}" class="btn btn-primary">Create</a>
         </div>
         <div class="card-body">
             <table id="datatablesSimple">
@@ -26,6 +34,7 @@
                         <th>Minimal Stok</th>
                         <th>Deskripsi</th>
                         <th>Kategori Produk</th>
+                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -39,7 +48,8 @@
                         <th>Minimal Stok</th>
                         <th>Deskripsi</th>
                         <th>Kategori Produk</th>
-                    </tr> 
+                        <th>Aksi</th>
+                    </tr>
                 </tfoot>
                 <tbody>
                     @php $no = 1; @endphp
@@ -53,8 +63,12 @@
                             <td>{{ $p->stok }}</td>
                             <td>{{ $p->min_stok }}</td>
                             <td>{{ $p->deskripsi }}</td>
-														{{--  <td>{{ $p->kategori_produk_id }}</td> --}}
                             <td>{{ $p->nama_kategori }}</td>
+                            <td>
+                                <a href="{{ url('produk/edit/' . $p->id) }}" class="btn btn-warning">Edit</a>
+                                <a href="{{ url('produk/delete/' . $p->id) }}" class="btn btn-danger"
+                                    onclick="return confirm('Apakah Anda yakin ingin menghapus produk?')">Delete</a>
+                            </td>
                             {{-- nama_kategori diambil dari join yang ada di controller produk yang sudah dibuatkan join --}}
                         </tr>
                         @php $no++; @endphp
